@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avalie a House Secure</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    text-align:center;
+    color:white;
+}
+
+.container{
+    padding:40px 20px;
+}
+
+.logo{
+    max-width:180px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:18px;
+    margin-bottom:30px;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:block;
+    width:90%;
+    max-width:400px;
+    margin:15px auto;
+    padding:18px;
+    font-size:18px;
+    font-weight:bold;
+    border:none;
+    border-radius:50px;
+    text-decoration:none;
+    transition:0.3s;
+    position:relative;
+    overflow:hidden;
+}
+
+.btn-google{
+    background:#fbbc05;
+    color:black;
+    box-shadow:0 0 20px #fbbc05;
+    animation:pulseGoogle 1.5s infinite;
+}
+
+.btn-whats{
+    background:#25D366;
+    color:white;
+    box-shadow:0 0 20px #25D366;
+    animation:pulseWhats 1.5s infinite;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+@keyframes pulseGoogle{
+    0%{box-shadow:0 0 10px #fbbc05;}
+    50%{box-shadow:0 0 30px #fff176;}
+    100%{box-shadow:0 0 10px #fbbc05;}
+}
+
+@keyframes pulseWhats{
+    0%{box-shadow:0 0 10px #25D366;}
+    50%{box-shadow:0 0 30px #6eff9a;}
+    100%{box-shadow:0 0 10px #25D366;}
+}
+
+footer{
+    margin-top:40px;
+    font-size:14px;
+    color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="housesecure.png" class="logo" alt="House Secure Logo">
+
+    <h1>Sua opinião é muito importante!</h1>
+    <p>Ajude a House Secure a continuar oferecendo o melhor em segurança eletrônica.</p>
+
+    <a href="https://g.page/r/CeL4xMoSMFRqEAE/review" target="_blank" class="btn btn-google">
+        ⭐ Avaliar no Google
+    </a>
+
+    <a href="https://wa.me/5511977788270" target="_blank" class="btn btn-whats">
+        📲 Falar no WhatsApp
+    </a>
+
+    <footer>
+        © 2026 House Secure - Segurança Eletrônica
+    </footer>
+
+</div>
+
+</body>
+</html>
